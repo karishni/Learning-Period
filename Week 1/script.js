@@ -114,23 +114,12 @@ document.addEventListener('DOMContentLoaded', () =>{
     if(correctMatch === 6){
       console.log(score);
       document.getElementById('score').innerHTML = "Your final score is " + score + "!";
-      // restart();
+    
     }
 
 
   }
 
-  // function restart(){
-    
-  //   var button = document.createElement('button');
-  //   button.innerHTML = "<button type='button' onclick=' document.querySelector('.grid').removeChild(card);'>Restart</button>"
-  //   // button.setAttribute('type', 'button');
-  //   // button.setAttribute('onclick', document.parentNode.removeChild(card));
-  //   button.addEventListener('click', cardGrid);
-  //   document.getElementById('score').appendChild(button);
-  //   score = 0;
-  //   correctMatch = 0;
-    
-  // }
+  
   
 
