@@ -16,22 +16,18 @@ h3{
 }
 
 .grid{
-	margin-top: 3vw;
 	align-content: center;
 	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
+	margin: auto;
 	justify-content: center;
+	width: 70%;
+
 }
 img{
-	height: 20vw;
-	width: 20vw;
+	height: 12vw;
+	width: 12vw;
 	margin: 1vw;
 	border: 2px solid black;
 }
 
-button{
-	height: 5vw;
-	width: 7vw;
-	background-color: white;
-}
